@@ -229,6 +229,17 @@ h1,h2,h3,h4,h5,h6 {
 	-o-transition: all .25s ease;
 	transition: all .25s ease;
 }
+.mu-main-navbar .mu-main-nav .dropdown-menu {
+  background-color: #333;
+  border-radius: 0;
+}
+.mu-main-navbar .mu-main-nav .dropdown-menu li a {
+  padding: 10px 20px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+  background-color: #fff;
+}
+
 .menu-list .active a {
 	color: white;
 	background: #131f33;
