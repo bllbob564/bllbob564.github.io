@@ -35,8 +35,7 @@
 	<!-- Import Custom Responsive Styles -->
 	<link href="assets/css/responsive.css" rel="stylesheet">
 
-
-
+	
 	<!--[if IE]>
   		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   		<![endif]-->
@@ -44,9 +43,9 @@
   	</head>
   	<body class="header-fixed-top">
 
-  		<div id="page-top" class="page-top"></div><!-- /.page-top -->
+  		<div id="page-top"></div>
 
-  		<section id="top-contact" class="top-contact">
+  		<!--<section id="top-contact" class="top-contact">
   			<div class="container">
   				<div class="row">
   					<div class="col-sm-8 pull-left">
@@ -68,7 +67,7 @@
   									<span class="top-icon"><i class="fa fa-phone"></i></span>
   									8888 888888
   								</a>
-  							</li>-->
+  							</li>--> <!--
   						</ul>
   					</div>
 
@@ -83,16 +82,16 @@
   								</li>
   								<!--<li>-->
   								<!--	<a href="#" class="top-icon fa fa-linkedin"></a>-->
-  								<!--</li>-->
+  								<!--</li>--><!--
   							</ul>
   						</div>
   					</div>
-  				</div><!-- /.row -->
-  			</div><!-- /.container -->
+  				</div><!-- /.row --><!--
+  			</div><!-- /.container --><!--
   		</section><!-- /#top-contact -->
 
 
-
+		<!--
   		<section id="site-banner" class="site-banner text-center">
   			<div class="container">
   				<div class="site-logo">
@@ -101,53 +100,92 @@
 						d<span class="bigi">I</span>vest from <span id="injustice_style">injustice</span>.
 					
 					</span>
-  				</div><!-- /.site-logo -->
-  			</div><!-- /.container -->
+  				</div><!-- /.site-logo --><!--
+  			</div><!-- /.container --><!--
   		</section><!-- /#site-banner -->
 
 
 
-  		<header id="main-menu" class="main-menu">
+  		<header id="main-menu" class="main-menu sticky">
   			<div class="container">
   				<div class="row">
-  					<div class="col-sm-7">
+  					<div class="col-sm-12">
   						<div class="navbar-header">
-  							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+  						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
   								<i class="fa fa-bars"></i>
-  							</button>
-                <div class="menu-logo">
-			<div class="site-logo">
-  					<span>
+  						</button>
+						<div class="menu-logo">
+							<div class="site-logo">
+									<!--<span>
+										
+										d<span class="bigi bigi_menu">I</span>vest.
+									
+									</span>-->
+								</div>
+						</div><!-- /.menu-logo -->
+						</div>
+						<nav id="menu" class="menu collapse navbar-collapse">
+							
+						 <ul id="headernavigation" class="menu-list nav navbar-nav">
+							
+						  <li class="active"><a href="#page-top">Home</a></li>
+						  
+						  <li><a href="#events">Events</a></li>
+						  
+				
+						  <li><a href="#referendum">Referendum</a></li>
+						   
+						    
+						  <li class="button-dropdown">
+							  <a href="#resources" class="dropdown-toggle">
+							    Resources
+							  </a>
+							  <ul class="dropdown-menu">
+							    <li>
+							      <a href="faq.html" class="js-href" >
+								FAQs
+							      </a>
+							    </li>
+							    <li>
+							      <a href="companies.html" class="js-href">
+								Companies
+							      </a>
+							    </li>
+							    <li>
+							      <a href="letters.html" class="js-href">
+								Letters of Support
+							      </a>
+							    </li>
+							  </ul>
+						  </li>
+						  
+						  
+						  
+						  <li class="button-dropdown">
+							  <a href="#media" class="dropdown-toggle" >
+							    media
+							  </a>
+							  <ul class="dropdown-menu">
+							    <li>
+							      <a href="gallery.html" class="js-href" >
+								Gallery
+							      </a>
+							    </li>
+							    <li>
+							      <a href="blogs.html" class="js-href">
+								Blog
+							      </a>
+							    </li>
+							
+							  </ul>
+						  </li>
+						  
+						</ul><!-- /.menu-list -->
 						
-						d<span class="bigi bigi_menu">I</span>vest.
-					
-					</span>
-  				</div>
-                </div><!-- /.menu-logo -->
-              </div>
-              <nav id="menu" class="menu collapse navbar-collapse">
-               <ul id="headernavigation" class="menu-list nav navbar-nav">
-                <li class="active"><a href="#page-top">Home</a></li>
-		            <li><a href="#events">Events</a></li>
-		            <li><a href="#referendum">Referendum</a></li>
-                <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#resources">Resources <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">                
-                    <li><a href="FAQs.html">FAQs</a></li>
-                    <li><a href="Companies.html">Companies</a></li>
-                    <li><a href="LettersofSupport.html">Letters of Support</a></li>                                            
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a class="dropdown-toggle" data-toggle="dropdown" href="#media">Media <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">                
-                    <li><a href="Gallery.html">Gallery</a></li>
-                    <li><a href="blog.html">Blog</a></li>                                           
-                  </ul>
-                </li>
-              </ul><!-- /.menu-list -->
-            </nav><!-- /.menu-list -->
-          </div>
+						
+											
+					      </nav><!-- /.menu-list -->
+					</div>
 
         <!-- <div class="col-sm-5">
 		<div class="slider-icon">
@@ -176,11 +214,12 @@
 	<img class="slider_second" src="images/quad.jpg" />
       <div class="carousel-caption">
 
-       <h3 class="carousel-title">Invest in Peace!<span style="font-size: 26px;">&#8482;</span>
-		<div class="slider-icon">
-			<i class="fa fa-hand-peace-o"></i>
-		</div>
-       </h3>
+       
+	<div class="carousel-title with-buttons">
+		<a class="btn-lg btn-primary" href="#referendum">Referendum</a>
+		<a class="btn-lg btn-primary" href="https://illinois.edu/fb/sec/2018976">Sign petition</a>
+       </div>
+     
        <!--<a class="btn text-btn" href="#">More Info</a>-->
      </div><!-- /.carousel-caption -->
    </div>
@@ -233,11 +272,7 @@
        <h3 class="item-title">Boycott</h3>
        <h4 class="sub-title">products that take away Palestinian Freedom.</h4>
      </div><!-- /.item-top -->
-     <p class="item-description">
-       Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. 
-     
-     
-     </p>
+   
      <!--<a class="btn" href="#">
        <span class="btn-icon"><i class="fa fa-arrow-circle-right"></i></span>
        More
@@ -250,9 +285,7 @@
      <h3 class="item-title">Divest</h3>
      <h4 class="sub-title">from companies that help the millitary opression of Palestine.</h4>
    </div><!-- /.item-top -->
-   <p class="item-description">
-       Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content        Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content 
-   </p>
+
    <!--<a class="btn" href="#">
      <span class="btn-icon"><i class="fa fa-arrow-circle-right"></i></span>
      More
@@ -265,9 +298,7 @@
    <h3 class="item-title">Sanction</h3>
    <h4 class="sub-title">nations that are directly involved in human rights violations.</h4>
  </div><!-- /.item-top -->
- <p class="item-description">
-  Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here. Content here.
- </p>
+
  <!--<a class="btn" href="#">
    <span class="btn-icon"><i class="fa fa-arrow-circle-right"></i></span>
    More
@@ -275,11 +306,19 @@
 </div><!-- /.item -->
 </div>
 
-<!-- This is the Code for the Video
+ <p class="item-description">
+ UIUC Divest is a student-led campaign calling on our administration to financially divest from corporations that directly profit from human rights violations in the Palestinian area. While we are a Palestinian advocacy group, we stand with all marginalized and oppressed people. We also call on the University of Illinois to divest from private prison systems and companies using child labor. Divestment is the removing of investment from corporations that profit from human rights abuses and violations of international law.
+ </p>
+
+
+
 <div class="about_video col-lg-12">
+
+	
+	
 <iframe src="https://www.youtube.com/embed/iRYZjOuUnlU" frameborder="0" allowfullscreen></iframe>
+	
 </div>
--->
 
 </div><!-- /.about-items -->
 
@@ -342,41 +381,8 @@
                   </div>
                 </div>
               </div>
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingThree">
-                  <h4 class="panel-title">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Event #3 - 2/13/2019
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                  <div class="panel-body">
-                    <span class="service-image"><img src="images/services/3.jpg" alt="Service Image"></span>
-                    <span class="accordion-title">Lorem ipsum dolor sit amet</span>
-                    <p>
-                      consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi Sed egestas, ante et vulputate volutpat is, gravida id
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingFour">
-                  <h4 class="panel-title">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                      Event #4 - 2/29/2019
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                  <div class="panel-body">
-                    <span class="service-image"><img src="images/services/2.jpg" alt="Service Image"></span>
-                    <p>
-                      consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi Sed egestas, ante et vulputate volutpat is, gravida id
-                    </p>
-                  </div>
-                </div>
-              </div>
+             
+           
             </div>
           </div><!-- /.accordion -->
 
@@ -389,41 +395,8 @@
           <div class="service-accordion">
            <div class="accordion">
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingFive">
-                  <h4 class="panel-title">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                      Event #5 - 2/29/2019
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-                  <div class="panel-body">
-                    <span class="service-image"><img src="images/services/1.jpg" alt="Service Image"></span>
-                    <span class="accordion-title">Lorem ipsum dolor sit amet</span>
-                    <p>
-                      consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi Sed egestas, ante et vulputate volutpat is, gravida id
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingSix">
-                  <h4 class="panel-title">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                      Event #6 - 2/29/2019
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
-                  <div class="panel-body">
-                    <span class="service-image"><img src="images/services/2.jpg" alt="Service Image"></span>
-                    <p>
-                      consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi Sed egestas, ante et vulputate volutpat is, gravida id
-                    </p>
-                  </div>
-                </div>
-              </div>
+             
+              
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="headingSeven">
                   <h4 class="panel-title">
@@ -487,42 +460,13 @@
  <div class="container">
   <div class="about-area ref-area">
 	<h2 class="about-title ref-title">Our Referendum</h2>
-	<p class="title-description ref-desc">Please read and sign our referendum</p><br /><br />
-	<p class="referendum-content">
-	A referendum (plural referendums, see below) is a direct vote in which an entire electorate is asked to vote on a particular proposal. This may result in the adoption of a new law. In some countries it is synonymous with a plebiscite or a vote on a ballot question.
-
-Some definitions of 'plebiscite' suggest that it is a type of vote to change the constitution or government of a country.[1] However, some other countries define it differently. For example, Australia defines 'referendum' as a vote to change the constitution, and 'plebiscite' as a vote that does not affect the constitution.[2] In Ireland, the vote to adopt its constitution was called a "plebiscite", but a subsequent vote to amend the constitution is called a 'referendum', and so is a poll of the electorate on a non-constitutional bill.
-
-Contents  [hide] 
-1	Etymology and plural form
-2	Earliest usage
-3	Typology
-4	Rationale
-5	Referendums by country
-6	Multiple-choice referendums
-7	Criticisms
-7.1	Criticism of populist aspect
-7.2	Patten's criticism
-7.3	Closed questions and the separability problem
-7.4	Undue limitations on regular government power
-8	Sources
-9	See also
-9.1	Specific referendums
-10	References
-11	External links
-Etymology and plural form[edit]
-'Referendum' is the gerundive form of the Latin verb refero, literally "to carry back" (from the verb fero, "to bear, bring, carry"[3] plus the inseparable preposition re-, here meaning "back".[4]) As a gerundive is an adjective,[5] not a noun,[6] it cannot be used alone in Latin and must be contained within a context attached to a noun such as Propositum qui referendum est populo, "A proposal which must be carried back to the people". The addition of the verb sum (3rd person singular, est) to a gerundive, denotes the idea of neccessity or compulsion, that which "must" be done, rather than that which is "fit for" doing). Its use as a noun in English is thus not a strictly grammatical usage of a foreign word, but is rather a freshly coined English noun, which therefore follows English grammatical usage, not Latin grammatical usage. This determines the form of the plural in English, which according to English grammar should be "referendums". The use of "referenda" as a plural form in English (treating it as a Latin word and attempting to apply to it the rules of Latin grammar) is thus insupportable according to the rules of both Latin and English grammar alike. The use of "referenda" as a plural form is posited hypothetically as either a gerund or a gerundive by the Oxford English Dictionary, which rules out such usage in both cases as follows:[7]
-
-"Referendums is logically preferable as a plural form meaning 'ballots on one issue' (as a Latin gerund,[8] referendum has no plural). The Latin plural gerundive 'referenda', meaning 'things to be referred', necessarily connotes a plurality of issues".[9]
-
-Compare also: Agenda "those matters which must be driven forward", from ago, to drive (cattle, etc); Memorandum, "that matter which must be remembered", from memoro, to call to mind, etc.
-
-Earliest usage[edit]
-The name and use of the 'referendum' is thought to have originated in the Swiss canton of Graubünden as early as the 16th century.[10][11]
-
-The term 'plebiscite' has a generally similar meaning in modern usage, and comes from the Latin plebiscita, which originally meant a decree of the Concilium Plebis (Plebeian Council), the popular assembly of the Roman Republic. Today, a referendum can also often be referred to as a plebiscite, but in some countries the two terms are used differently to refer to votes with differing types of legal consequences. For example, Australia defines 'referendum' as a vote to change the constitution, and 'plebiscite' as a vote that does not affect the constitution.[2] In contrast, Ireland has only ever held one plebiscite, which was the vote to adopt its constitution, and every other vote has been called a referendum. Plebiscite has also been used to denote a non-binding vote count such as the one held by Nazi Germany to 'approve' in retrospect the so-called Anschluss with Austria, the question being not 'Do you permit?' but rather 'Do you approve?' of that which has most definitely already occurred. This is in line with Eamon De Valera's oft stated belief that 'the people do not have the right to do wrong' which in this context means to reject his new Eire constitution.
- 
- </p>
+	<p class="title-description ref-desc"><a href="https://illinois.edu/fb/sec/2018976">Please read and sign our referendum</a></p><br /><br />
+	
+	
+	
+	<iframe height="1000" width="100%" src="http://www.scribd.com/embeds/245682646/content?access_key=key-4mi0wEmuvFGEoBMziqtq&amp;jsapi=true&amp;xdm_e=http://www.safeumich.com&amp;xdm_c=default0&amp;xdm_p=1" id="" frameborder="0" style="border: 0px;"></iframe>
+	
+	
  
   </div><!-- /.about-area -->
   </div><!-- /.container -->
@@ -558,14 +502,14 @@ The term 'plebiscite' has a generally similar meaning in modern usage, and comes
           <div class="item item-1">
             <div class="row">
               <div class="col-sm-6">
-                <h3 class="item-title">Resource #1</h3>
-                <span class="sub-title">This resource is very important and should be viewedto gain more knowledge about what we do  </span>
+                <h3 class="item-title">FAQs</h3>
+                <span class="sub-title">Click here to view some of the frequently asked questions about a BDS Campaign  </span>
               </div>
               <div class="col-sm-6">
                 <p class="item-description">
-                  Content Here about the resource. Content Here about the resource. Content Here about the resource. Content Here about the resource.  
+                  What is the Boycott, Divestment and sanctions (BDS) movement? How does BDS help the Palestinian struggle for freedom, justice and equality?   
                 </p><!-- /.item-description -->
-                <a class="btn" href="#">
+                <a class="btn" href="faq.html">
                   <span class="btn-icon"><i class="fa fa-arrow-circle-right"></i></span>
                   read more
                 </a>
@@ -576,14 +520,14 @@ The term 'plebiscite' has a generally similar meaning in modern usage, and comes
           <div class="item item-2">
             <div class="row">
               <div class="col-sm-6">
-                <h3 class="item-title">Resource #2</h3>
-                <span class="sub-title">Risus id mediou soimto usce pelle nitesqu it nunc sed egesta ante gravids peses </span>
+                <h3 class="item-title">Letters of Support</h3>
+                <span class="sub-title">Click here to see some of the organizations that have chosen to support this movement </span>
               </div>
               <div class="col-sm-6">
                 <p class="item-description">
-                  Content Here about the resource. Content Here about the resource. Content Here about the resource. Content Here about the resource.  
+                  Organization #1, Organization #2, Organization #3, Organization #4, etc.. 
                 </p><!-- /.item-description -->
-                <a class="btn" href="#">
+                <a class="btn" href="letters.html">
                   <span class="btn-icon"><i class="fa fa-arrow-circle-right"></i></span>
                   read more
                 </a>
@@ -598,14 +542,14 @@ The term 'plebiscite' has a generally similar meaning in modern usage, and comes
           <div class="item item-1">
             <div class="row">
               <div class="col-sm-6">
-                <h3 class="item-title">Resource #3</h3>
-                <span class="sub-title">Risus id mediou soimto usce pelle nitesqu it nunc sed egesta ante gravids peses </span>
+                <h3 class="item-title">Companies</h3>
+                <span class="sub-title">Click here to see the companies we have chosen to Divest from </span>
               </div>
               <div class="col-sm-6">
                 <p class="item-description">
-                  Content Here about the resource. Content Here about the resource. Content Here about the resource. Content Here about the resource.  
+                  Northrop Grumman, General Electric, Motorola Solutions Inc., Raytheon Company, and more...   
                 </p><!-- /.item-description -->
-                <a class="btn" href="#">
+                <a class="btn" href="companies.html">
                   <span class="btn-icon"><i class="fa fa-arrow-circle-right"></i></span>
                   read more
                 </a>
@@ -616,14 +560,14 @@ The term 'plebiscite' has a generally similar meaning in modern usage, and comes
           <div class="item item-2">
             <div class="row">
               <div class="col-sm-6">
-                <h3 class="item-title">Resource #4</h3>
-                <span class="sub-title">Risus id mediou soimto usce pelle nitesqu it nunc sed egesta ante gravids peses </span>
+                <h3 class="item-title">Blog</h3>
+                <span class="sub-title">Stay up to date with the latest news and official updates </span>
               </div>
               <div class="col-sm-6">
                 <p class="item-description">
-                  Content Here about the resource. Content Here about the resource. Content Here about the resource. Content Here about the resource.  
+                 Week of Events <br /> BDS Launch 
                 </p><!-- /.item-description -->
-                <a class="btn" href="#">
+                <a class="btn" href="blogs.html">
                   <span class="btn-icon"><i class="fa fa-arrow-circle-right"></i></span>
                   read more
                 </a>
@@ -652,7 +596,7 @@ The term 'plebiscite' has a generally similar meaning in modern usage, and comes
   <div class="portfolio-area">
     <div class="portfolio-top">
       <h2 class="portfolio-title">Gallery</h2>
-      <p class="title-description">some cool images related to divestuiuc!</p>
+      <p class="title-description"><a href="gallery.html">Click Here to see more Photos!</a> </p>
       <div class="slide-nav-container">
         <a class="slide-nav left slide-left post-prev" data-slide="post-prev"><i class="fa fa-angle-left"></i></a>
         <a class="slide-nav right slide-right post-next" data-slide="post-next"><i class="fa fa-angle-right"></i></a>
@@ -721,98 +665,7 @@ The term 'plebiscite' has a generally similar meaning in modern usage, and comes
 
 
 
-<section id="media" class="latest-post">
-  <div class="container">
-    <div class="post-area">
-	
-      <div class="post-area-top text-center">
-        <h2 class="portfolio-title media-title"> Blog Posts</h2>
-        <p class="title-description">catch up on some opinion pieces and interesting articles!</p>
-      </div><!-- /.post-area-top -->
 
-      <div class="row">
-        <div class="latest-posts">
-          <div class="col-sm-6">
-            <div class="item">
-              <article class="post type-post">
-                <div class="post-top">
-                  <div class="post-thumbnail">
-                    <img src="images/gellery2.jpeg" alt="post Image">
-                  </div><!-- /.post-thumbnail -->  
-                  <div class="post-meta">
-                    <div class="entry-meta">
-                      <span class="entry-date">
-                        <time datetime="2015-01-15">15 Jan 2015</time>
-                      </span>
-                      <span class="author-name">
-                        <a href="#">John Doe</a>
-                      </span>
-                      <span class="post-tags">
-                        <ul class="tag-list">
-                          <li><a href="#">BDS</a></li>
-                          <li><a href="#">Palestine</a></li>
-                          <li><a href="#">Divestment</a></li>
-                        </ul>
-                      </span>
-                    </div><!-- /.entry-meta -->
-                  </div><!-- /.post-meta -->
-                </div><!-- /.post-top -->
-                <div class="post-content">
-                  <h2 class="entry-title"><a href="blog-single.html">Standard Blog post Title</a></h2>
-                  <p class="entry-text">
-                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
-                  </p>
-                  <a class="btn" href="#">
-                    <span class="btn-icon"><i class="fa fa-arrow-circle-right"></i></span>
-                    Read More
-                  </a>
-                </div><!-- /.post-content -->
-              </article>
-            </div><!-- /.item -->
-          </div>
-          <div class="col-sm-6">
-            <div class="item">
-              <article class="post type-post">
-                <div class="post-top">
-                  <div class="post-thumbnail">
-                   <img src="images/gellery3.jpeg" alt="post Image">
-                 </div><!-- /.post-thumbnail -->  
-                 <div class="post-meta">
-                  <div class="entry-meta">
-                    <span class="entry-date">
-                      <time datetime="2015-01-15">15 Jan 2015</time>
-                    </span>
-                    <span class="author-name">
-                      <a href="#">John Doe</a>
-                    </span>
-                    <span class="post-tags">
-                      <ul class="tag-list">
-                        <li><a href="#">BDS</a></li>
-                        <li><a href="#">Palestine</a></li>
-                        <li><a href="#">Cool tag</a></li>
-                      </ul>
-                    </span>
-                  </div><!-- /.entry-meta -->
-                </div><!-- /.post-meta -->
-              </div><!-- /.post-top -->
-              <div class="post-content">
-                <h2 class="entry-title"><a href="blog-single.html">Standard Blog post Title</a></h2>
-                <p class="entry-text">
-                  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
-                </p>
-                <a class="btn" href="#">
-                  <span class="btn-icon"><i class="fa fa-arrow-circle-right"></i></span>
-                  Read More
-                </a>
-              </div><!-- /.post-content -->
-            </article>
-          </div><!-- /.item -->
-        </div>
-      </div><!-- /.latest-posts -->
-    </div><!-- /.row -->
-  </div><!-- /.post-area -->
-</div><!-- /.container -->
-</section><!-- /#latest-post -->   
 
 
 
@@ -821,7 +674,7 @@ The term 'plebiscite' has a generally similar meaning in modern usage, and comes
 <section id="subscribe-section" class="subscribe-section text-center">
   <div class="container">
 	<h1>
-	It's time to tell the <span style="color: white;font-weight: 700;">University of Illinois</span> to divest from <span style="color: red;">injustice</span>. Join us today. 
+	It's time to tell the <span style="color: white;font-weight: 700;">University of Illinois</span> to divest from <span style="color: red;">injustice</span>. <a href="https://illinois.edu/fb/sec/2018976">Join us today.</a> 
 	</h1>
     <!--<form class="news-letter" method="post">
       <p class="alert-success"></p>
@@ -863,6 +716,15 @@ The term 'plebiscite' has a generally similar meaning in modern usage, and comes
       </div><!-- /.container -->
     </div><!-- /.message-details -->
     
+    <!-- Google Map Section -->
+    <div id="google-map" class="google-map">
+      <div class="map-container">
+        <div id="googleMaps" class="google-map-container">
+        </div>
+      </div><!-- /.map-container -->
+    </div><!-- /#google-map-->
+    <!-- Google Map Section End -->
+    
     
   </div><!-- /.contact-area -->
 </section><!-- /#contact -->
@@ -877,8 +739,10 @@ The term 'plebiscite' has a generally similar meaning in modern usage, and comes
         <div id="tweet" class="tweet text-center">
 		
 		
-		<a class="twitter-timeline" data-width="500" data-height="800" data-theme="light" data-link-color="#E95F28" href="https://twitter.com/NationalSJP">Tweets by NationalSJP</a>
+		<a class="twitter-timeline" data-width="1500" data-height="600" data-theme="light" data-link-color="#E95F28" href="https://twitter.com/NationalSJP">Tweets by NationalSJP</a>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSJP.UIUC&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="1500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 		
 		
          <!-- <div class="col-xs-4 about-tweet">
@@ -906,6 +770,7 @@ The term 'plebiscite' has a generally similar meaning in modern usage, and comes
             <!--<time datetime="PT2H">2 Hours Ago</time>-->
           <!--</div>-->
         </div><!-- /#tweet -->
+	 
       </div><!-- /.row -->
     </div><!-- /.container -->
   </div><!-- /#footer-top -->
@@ -913,7 +778,7 @@ The term 'plebiscite' has a generally similar meaning in modern usage, and comes
   <div id="footer-bottom" class="footer-bottom text-center">
     <div class="container">
       <div id="copyright" class="copyright">
-        &copy; <a href="http://demos.jeweltheme.com/heera">Heera</a>  2015 - Designed &amp; Developed by <a href="http://jeweltheme.com">Jewel Theme</a>
+        <a href="http://demos.jeweltheme.com/heera">Developed by <a href="http://jeweltheme.com">Jewel Theme</a>
       </div><!-- /#copyright -->
     </div>
   </div><!-- /#footer-bottom -->
@@ -958,14 +823,56 @@ The term 'plebiscite' has a generally similar meaning in modern usage, and comes
 
 
 <script>
+	
+	
+	
+	
+jQuery(document).ready(function (e) {
+    function t(t) {
+        e(t).bind("click", function (t) {
+            t.preventDefault();
+            e(this).parent().fadeOut()
+        })
+    }
+    e(".dropdown-toggle").click(function () {
+        var t = e(this).parents(".button-dropdown").children(".dropdown-menu").is(":hidden");
+        e(".button-dropdown .dropdown-menu").hide();
+        e(".button-dropdown .dropdown-toggle").removeClass("active");
+        if (t) {
+            e(this).parents(".button-dropdown").children(".dropdown-menu").toggle().parents(".button-dropdown").children(".dropdown-toggle").addClass("active")
+        }
+    });
+    e(document).bind("click", function (t) {
+        var n = e(t.target);
+        if (!n.parents().hasClass("button-dropdown")) e(".button-dropdown .dropdown-menu").hide();
+    });
+    e(document).bind("click", function (t) {
+        var n = e(t.target);
+        if (!n.parents().hasClass("button-dropdown")) e(".button-dropdown .dropdown-toggle").removeClass("active");
+    })
+    
+    
+    
+});
+
+
+
+
 
  $(document).ready(function() {
+	
+	
+	
+  $(".js-href").click(function(e){
+	window.location.href = $(this).attr('href');	
+  })
+	
 
   /* -------- One page Navigation ----------*/
   $('#main-menu #menu').onePageNav({
     currentClass: 'active',
     changeHash: false,
-    scrollSpeed: 1500,
+    scrollSpeed: 100,
     scrollThreshold: 0.5,
     scrollOffset: 95,
     filter: ':not(.sub-menu a, .not-in-home)',

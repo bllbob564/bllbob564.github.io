@@ -48,17 +48,6 @@
 
     "use strict";
 
-    // Fixed menu
-    if( $('body').hasClass('header-fixed-top') ){
-      $(window).scroll(function(){
-        if( $(window).scrollTop()>200 ){
-          $('header').addClass('sticky animated fadeInDown');
-        }
-        else{
-          $('header').removeClass('sticky animated fadeInDown');
-        }
-      });
-    }
 
     /*---------------------------------NiceScroll-----------------------------*/
     //Check IE11
