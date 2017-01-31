@@ -600,7 +600,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .service-items .item {
 	padding-bottom: 60px;
-	height: 175px;
+	min-height: 220px;
 }
 .service-items .item-1 {
 	border-bottom:  1px solid #FA6300;
@@ -1350,7 +1350,6 @@ footer a {
 	background: #131f33;
 	box-shadow: 0px 0px 2px 1px #CCCCCC;
 	border-radius: 6px;
-	height: 375px;
 	
 	
 }
