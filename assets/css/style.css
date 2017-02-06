@@ -1298,7 +1298,7 @@ footer a {
 	margin-left: 20%;
 }
 .slider_second{
-	max-height: 600px !important;
+	min-height: 600px !important;
 	width: auto !important;
 	
 	
