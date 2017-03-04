@@ -1,0 +1,108 @@
+<section id="events" class="services">
+  <div class="container">
+    <div class="row">
+     <div class="service-area" style="width: 100%;">
+     <h2 class="events-title">Upcoming events!</h2>
+     <p class="events-title-description">Check out our upcoming events!</p>
+     <div class="service-items">
+	<div class="col-sm-6">
+          <div class="service-accordion">
+           <div class="accordion">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      UIUC Divest Launch Party - 2/2/2017
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                    <span class="service-image"><img src="images/services/tariq.jpg" alt="Service Image"></span>
+                    <span class="accordion-title">Channing Murray Foundation, 7 pm</span>
+                    <p>
+                      Join us at the Channing Murray Foundation to celebrate this launch and to learn more about our campaign, goals, and who we are. We will be hosting a multitude of poets and performers, including Detroit-based Palestinian-American poet Tariq Luthun. Doors open at 7pm, with the event starting at 7:30pm. Refreshments will be provided, with snacks in part provided by Mashawi Grill.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Palestine Legal - Know Your Rights Workshop - 2/9/2017
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    <span class="service-image"><img src="images/services/PalestineLegal.png" alt="Service Image"></span>
+                    <span class="accordion-title">Location: Rm. 1065; 6-7:30pm</span>
+                    <p>
+                      Come join us and learn about your rights on campus while dealing with the issue of UIUC Divest. Lawyers from Palestine Legal will we walking us through do's and dont's while spreading awareness about the conflicts of the Palestinians and other socioeconomically disadvantaged groups.
+                    </p>
+                  </div>
+                </div>
+              </div>
+             
+           
+            </div>
+          </div><!-- /.accordion -->
+
+        </div><!-- /.service-accordion -->
+      </div>
+	
+	<!-- Second Events Column -->
+	
+        <div class="col-sm-6">
+          <div class="service-accordion">
+           <div class="accordion">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+             
+              
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingSeven">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                       Hot Chocolate/Tea on the Quad - 2/9/2017
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+                  <div class="panel-body">
+                    <span class="service-image"><img src="images/services/tea.jpg" alt="Service Image"></span>
+                    <span class="accordion-title">Tables on the Quad side of the Union, 10am -3pm</span>
+                    <p>
+                      Join us for some free Hot Chocolate or Tea at the Table next to the stairs in the South Side of the Union and learn about UIUC Divest, Palestine, and the intersectionality with other issues.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingEight">
+                  <h4 class="panel-title">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                       Coming Soon
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+                  <div class="panel-body">
+                    <span class="service-image"><img src="images/services/logo.png" alt="Service Image"></span>
+                    <p>
+                      Another event is being planned and will be released upon confirmation that it will be happening
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- /.accordion -->
+
+        </div><!-- /.service-accordion -->
+      </div>
+    </div><!-- /.service-items -->
+  </div><!-- /.service-area -->
+</div><!-- /.row -->
+</div><!-- /.container -->
+</section><!-- /#services -->
